@@ -48,9 +48,7 @@ const hottestDays = function (temperatures, threshhold) {
  *       all previous functions
  *******************************************/
 const logHottestDays = function (temperatures, threshhold) {
-  toCelsius(hottestDays(temperatures, threshhold)).forEach((temp) =>
-    console.log(temp)
-  );
+  logger(toCelsius(hottestDays(temperatures, threshhold)));
 };
 
 /* Uncomment the following lines to test your code... */
